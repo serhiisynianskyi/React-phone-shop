@@ -12,7 +12,6 @@ import Layout from 'containers/layout'
 import Phones from 'containers/phones'
 
 import './main.css'
-import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 
 const store = createStore(reducers, composeWithDevTools(
